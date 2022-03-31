@@ -1,0 +1,20 @@
+.card-subtitle-text {
+  height: 5rem;
+  /* white-space: nowrap; */
+  overflow: scroll;
+  overflow-x: hidden;
+  text-overflow: scroll;
+}
+
+.card-title-text {
+  font-size: 1.2rem;
+  padding-right: 0.2rem;
+  height: 3rem;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.COD-text {
+  color: var(--theme-bright-green);
+  font-weight: 600;
+}

@@ -1,0 +1,14 @@
+.products-container {
+  padding-top: 5rem;
+  padding-left: 20%;
+  padding-bottom: 5rem;
+  /* display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: first baseline;
+  align-items: flex-start; */
+  display: grid;
+  justify-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  gap: 4rem;
+}
